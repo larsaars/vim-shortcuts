@@ -1,8 +1,9 @@
-> Note: This table is based on [my vim setup](https://github.com/larsaars/linux-setup).
-# command mode
+# vim shortcuts
+> Note: This table is presupposes that you are using [my vim setup](https://github.com/larsaars/linux-setup).
+## command mode
 Every command can be executed n times by pressing a number and then entering the command.
 All commands with a movement following (e.g. `c+movement`) can have a number before the movement (e.g. `c4l`).
-### movement
+#### movement
 shortcut | behaviour | comment | example
 --- | --- | --- | ---
 h | move left
@@ -54,7 +55,7 @@ L | jump to bottom of the currently visible screen
 m+mark-name | set mark at current cursor position | marks with same name will be replaced | `ma`: mark with name a set at current cursor position
 '+mark-name | jump to previously set mark | | when mark `a` has been set, jump with this to the previous cursor position
 
-### text manipulation
+#### text manipulation
 shortcut | behaviour | comment | example
 --- | --- | --- | ---
 u | undo
@@ -80,7 +81,7 @@ J | delete newline character in line below
 xp | swap two characters | cut then paste
 
 
-### switch to insert mode
+#### switch to insert mode
 shortcut | behaviour | comment | example
 --- | --- | --- | ---
 i | enter insert mode at cursor
@@ -93,7 +94,7 @@ c+movement | delete to movement, move cursor there and enter insert mode
 C | change till end of line | same as `c$`
 cc | delete whole line and jump in insert mode
 
-## insert mode
+### insert mode
 shortcut | behaviour | comment | example
 --- | --- | --- | ---
 esc | return to command mode
@@ -105,7 +106,7 @@ ctrl+t | move line one tab to right (indent)
 ctrl+d | move line one tab to left (de-indent)
 any key | use keyboard as you are used to | This setup auto-completes all types of brackets and quotation marks.
 
-### other
+#### other
 shortcut | behaviour | comment | example
 --- | --- | --- | ---
 . | repeat last action
@@ -122,14 +123,14 @@ F9 | toggle netrw | same as '"'
 F10 | `:q!`
 ZZ | `:q`
 
-### enter visual mode
+#### enter visual mode
 shortcut | behaviour | comment | example
 --- | --- | --- | ---
 v | enter character visual mode | select single character
 V | enter line visual mode | select whole lines
 ctrl+v | enter block visual mode | select code blocks
 
-## visual mode
+### visual mode
 In the visual mode, everything selected is affected by these commands. The visual mode gets exited after executing one command.
 
 shortcut | behaviour | comment | example
@@ -142,7 +143,7 @@ y | copy | 'yank'
 < | shift one tab left
 movement | of any kind moves selection
 
-## window manager
+### window manager
 Press `ctrl+w` and then enter the next commands (from this table) for window mode and expected behaviour.
 
 shortcut | behaviour | comment | example
@@ -162,14 +163,14 @@ r | rotate windows to right
 R | rotate window to left
 
 
-## tabs
+### tabs
 shortcut | behaviour | comment | example
 --- | --- | --- | ---
 alt+j or gT | move to tab on the left
 alt+k or gt | move to the tab on the right
 \#gt number | go to specific tab number
 
-## netrw (file manager)
+### netrw (file manager)
 > Note: This is just a window, so controllable by window manager.
 > Note: All vim commands are active here (so searching by `/` for example is here also possible).
 > Note: Move between files with movement keys.
@@ -181,7 +182,7 @@ enter | if on folder, open it; if on file, replace current file in current windo
 v | open in vertical split | on file
 t | open in new tab | on file
 
-# commands
+## commands
 shortcut | behaviour | comment | example
 --- | --- | --- | ---
 :help keyword | shows help to vim command
@@ -209,7 +210,7 @@ shortcut | behaviour | comment | example
 :tabclose | close a single tab
 :tabs | list all open tabs
 
-### substitute command
+#### substitute command
 > More info [here](https://vim.fandom.com/wiki/Search_and_replace).
 
 shortcut | behaviour | comment | example
