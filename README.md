@@ -77,7 +77,7 @@ J | delete newline character in line below
 \>> | move line one tab right
 =G | indent file below cursor | in c, cpp, etc. with clang-format
 !! | enter shell command, the result of it will be pasted below the cursor
-ö | enter curly-braces and move to insert mode
+ö | enter semicolon at end of the line
 xp | swap two characters | cut then paste
 
 
@@ -93,6 +93,7 @@ O | insert newline above and enter insert mode there (auto indented)
 c+movement | delete to movement, move cursor there and enter insert mode
 C | change till end of line | same as `c$`
 cc | delete whole line and jump in insert mode
+ä | enter curly-braces and move to insert mode between them
 
 ### insert mode
 shortcut | behaviour | comment | example
