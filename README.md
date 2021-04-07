@@ -171,8 +171,8 @@ alt+k or gt | move to the tab on the right
 \#gt number | go to specific tab number
 
 ### netrw (file manager)
-> Note: This is just a window, so controllable by window manager.
-> Note: All vim commands are active here (so searching by `/` for example is here also possible).
+> Note: Netrw is just a window, so controllable by window manager.
+> Note: All vim commands are active here (concludes that searching with `/` for example is also possible).
 > Note: Move between files with movement keys.
 
 shortcut | behaviour | comment | example
