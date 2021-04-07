@@ -1,4 +1,4 @@
-# vim shortcuts
+# vim shortcuts / cheat sheet
 > Note: This table is presupposes that you are using [my vim setup](https://github.com/larsaars/linux-setup).
 ## command mode
 Every command can be executed n times by pressing a number and then entering the command.
