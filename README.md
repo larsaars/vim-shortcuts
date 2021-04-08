@@ -73,7 +73,7 @@ D | delete to end of line | same as `d$`
 dd | delete line | actually cut it
 yy | copy line
 J | delete newline character in line below
-\<CR> | insert newline character below | stands for `enter`
+\- | insert newline character below
 << | move line one tab left
 \>> | move line one tab right
 =G | indent file below cursor | in c, cpp, etc. with clang-format
