@@ -73,12 +73,15 @@ D | delete to end of line | same as `d$`
 dd | delete line | actually cut it
 yy | copy line
 J | delete newline character in line below
+\<CR> | insert newline character below | stands for `enter`
 << | move line one tab left
 \>> | move line one tab right
 =G | indent file below cursor | in c, cpp, etc. with clang-format
 !! | enter shell command, the result of it will be pasted below the cursor
 ö | enter semicolon at end of the line
+ü | delete two together belonging parenthesis, brackets or braces
 xp | swap two characters | cut then paste
++ | toggle inline comment
 
 
 #### switch to insert mode
@@ -142,6 +145,7 @@ y | copy | 'yank'
 ~ | swap case (upper and lower)
 \> | shift one tab right
 < | shift one tab left
++ | toggle inline comment in selected lines
 movement | of any kind moves selection
 
 ### window manager
