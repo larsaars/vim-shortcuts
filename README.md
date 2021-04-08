@@ -81,7 +81,7 @@ J | delete newline character in line below
 ö | enter semicolon at end of the line
 ü | delete two together belonging parenthesis, brackets or braces
 xp | swap two characters | cut then paste
-+ | toggle inline comment
+\+ | toggle inline comment
 
 
 #### switch to insert mode
@@ -145,7 +145,7 @@ y | copy | 'yank'
 ~ | swap case (upper and lower)
 \> | shift one tab right
 < | shift one tab left
-+ | toggle inline comment in selected lines
+\+ | toggle inline comment in selected lines
 movement | of any kind moves selection
 
 ### window manager
