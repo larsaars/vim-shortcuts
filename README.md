@@ -53,7 +53,8 @@ M | put cursor in middle of current screen
 H | jump to top of the currently visible screen
 L | jump to bottom of the currently visible screen
 m+mark-name | set mark at current cursor position | marks with same name will be replaced | `ma`: mark with name a set at current cursor position
-'+mark-name | jump to previously set mark | | when mark `a` has been set, jump with this to the previous cursor position
+\`+mark-name | jump to previously set mark | | when mark `a` has been set, jump with `` `a `` to the previous cursor position
+'+mark-name | jump to line start of previously set mark
 
 #### text manipulation
 shortcut | behaviour | comment | example
