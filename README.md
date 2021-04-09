@@ -66,7 +66,8 @@ r | replace character at current cursor position with next key press
 R | switch to replace-mode, will replace all characters till exited
 x | delete character at current cursor position
 ~ | switch case (upper or lower) of character at current cursor position and move one right
-p | paste | stands for 'put'
+p | paste after cursor | stands for 'put'
+P | paste before cursor
 y+movement | copy with the movement | stands for 'yank' | `y$` will copy till end of line
 Y | copy to end of line | same as `y$`
 d+movement | delete with the movement | | `d$` will delete till end of line
