@@ -110,6 +110,7 @@ ctrl+n | insert (auto-complete) next match before the cursor
 ctrl+p | insert (auto-complete) previous match before the cursor
 ctrl+t | move line one tab to right (indent)
 ctrl+d | move line one tab to left (de-indent)
+ctrl+w | delete previous word
 any key | use keyboard as you are used to | This setup auto-completes all types of brackets and quotation marks.
 
 #### other
